@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="calculatorBoder">
+            <div>
+                <input type="text" name="" disabled id="inputDisplay">
+                <input type="text" name="" disabled id="inputDisplay1">
+
+            </div>
+            <button class="buttonSahi" onclick="allClear()">C</button>
+            <button class="buttonSahi" onclick="clear1()">00-0</button>
+            <button class="buttonSahi" onclick="buttonjan('.')">.</button>
+            <button class="buttonKsahi" onclick="buttonjan('/')">/</button>
+            <button class="buttonHa" onclick="buttonjan('7')">7</button>
+            <button class="buttonHa" onclick="buttonjan('8')">8</button>
+            <button class="buttonHa" onclick="buttonjan('9')">9</button>
+            <button class="buttonKsahi" onclick="buttonjan('*')">x</button>
+            <button class="buttonHa" onclick="buttonjan('4')">4</button>
+            <button class="buttonHa" onclick="buttonjan('5')">5</button>
+            <button class="buttonHa" onclick="buttonjan('6')">6</button>
+            <button class="buttonKsahi" onclick="buttonjan('-')">-</button>
+            <button class="buttonHa" onclick="buttonjan('1')">1</button>
+            <button class="buttonHa" onclick="buttonjan('2')">2</button>
+            <button class="buttonHa" onclick="buttonjan('3')">3</button>
+            <button class="buttonKsahi" onclick="buttonjan('+')">+</button>
+            <button class="zero" onclick="buttonjan('0')">0</button>
+            <button class="buttonHa" onclick="buttonjan('00')">00</button>
+            <button class="buttonKsahi" onclick="calualt()">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
